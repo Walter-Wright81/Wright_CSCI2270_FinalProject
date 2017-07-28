@@ -1,10 +1,8 @@
 # Wright_CSCI2270_FinalProject
 
-For my final project I plan on designing a map of cities represented by a weighted non-directed graph.
-The vertices and edges will be based on cities and their distances either in the state of Colorado or
-captial cities in the United States. The edges between cities will contain information about the distance
-between two adjacent cities as well as the estimated speed limit of the roads between them. This information
-will be as accurate as possible and based off of Google maps estimates of distances and speed limits. My 
-project will allow you to enter two cities and will solve for the quickest route from one city to another.
-This quickest route will be based on the distances traveled from city to city as well as the speed at which
-you can drive those distances. A linked list will allow for the storage of the shortest route.
+This project's primary function is to allow you to enter the capital of two states (excluding Hawaii and Alaska) and the program will find the shortest path from capital to capital between the states. The state capitals are vertices of a graph and the connections between them are the edges of the graph. The edges of the graph hold two pieces of information, the distance in miles and the amount of time it takes to go from one state capital to the other. The distance in miles is not used in the code except to tell the user the distance between state capitals. The amount of time to go from one state capital to another is what is used in the Dijkstra's Algorithm to find the shortest path between two capitals. This gives you the route that takes the least amount of time to travel.
+
+The 7 public functions display the total number of vertices, display the total number of edges, display all vertices (states and capitals), display all edges from one vertex, build the graph (put all 48 states and their connections into the graph), delete the graph, and find the shortest path between two state capitals.
+
+To use the program, a menu will display with 6 options. Enter a number corresponding to the option and that option will be executed or you will be prompted for further input.
+
