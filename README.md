@@ -6,3 +6,16 @@ The 7 public functions display the total number of vertices, display the total n
 
 To use the program, a menu will display with 6 options. Enter a number corresponding to the option and that option will be executed or you will be prompted for further input.
 
+To download and use the program:
+
+1. Clone onto machine using
+    git clone https://github.com/Walter-Wright81/Wright_CSCI2270_FinalProject.git
+    
+2. Open directory using
+    cd Wright_CSCI2270_FinalProject.git
+    
+3. Compile using
+    g++ -o shortPath Graph_runner.cpp
+
+4. Run using
+    ./shortPath
