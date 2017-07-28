@@ -9,13 +9,17 @@ To use the program, a menu will display with 6 options. Enter a number correspon
 To download and use the program:
 
 1. Clone onto machine using
+    
     git clone https://github.com/Walter-Wright81/Wright_CSCI2270_FinalProject.git
     
 2. Open directory using
+    
     cd Wright_CSCI2270_FinalProject.git
     
 3. Compile using
+    
     g++ -o shortPath Graph_runner.cpp
 
 4. Run using
+    
     ./shortPath
