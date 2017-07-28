@@ -14,7 +14,7 @@ To download and use the program:
     
 2. Open directory using
     
-    cd Wright_CSCI2270_FinalProject.git
+    cd Wright_CSCI2270_FinalProject
     
 3. Compile using
     
